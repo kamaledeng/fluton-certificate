@@ -133,10 +133,26 @@ You've completed verification and joined the ecosystem.
 <label>Role</label>
 
 <select id="roleInput">
-<option>Initiate</option>
-<option>Encrypted</option>
-<option>Fluton Creator</option>
-<option>Fluton Apex</option>
+
+<optgroup label="Staff Roles">
+<option value="Team">Team</option>
+<option value="Community Manager">Community Manager</option>
+<option value="Moderator">Moderator</option>
+<option value="Regional Mod">Regional Mod</option>
+<option value="Partners">Partners</option>
+</optgroup>
+
+<optgroup label="Earnable Roles">
+<option value="Encrypted">Encrypted</option>
+<option value="Fluton Creator">Fluton Creator</option>
+<option value="Fluton Apex">Fluton Apex</option>
+</optgroup>
+
+<optgroup label="Other Roles">
+<option value="Early">Early</option>
+<option value="Server Booster">Server Booster</option>
+</optgroup>
+
 </select>
 
 <button onclick="updateCert()">Generate Certificate</button>
