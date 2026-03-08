@@ -36,6 +36,24 @@ padding:40px;
 #certificate{
 width:380px;
 text-align:center;
+background:linear-gradient(180deg,#ffffff,#f8f7ff);
+border-radius:20px;
+padding:40px;
+
+border:2px solid rgba(124,58,237,0.2);
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.1),
+0 0 25px rgba(124,58,237,0.3);
+
+transition:0.3s;
+}
+
+#certificate:hover{
+transform:scale(1.02);
+box-shadow:
+0 15px 40px rgba(0,0,0,0.15),
+0 0 40px rgba(124,58,237,0.5);
 }
 
 .title{
@@ -47,21 +65,22 @@ width:100px;
 height:100px;
 border-radius:50%;
 border:4px solid #c4b5fd;
+box-shadow:0 0 20px rgba(124,58,237,0.6);
 display:flex;
 align-items:center;
 justify-content:center;
 margin:20px auto;
-font-size:30px;
 overflow:hidden;
 }
 
 .role{
-background:#ede9fe;
-color:#7c3aed;
-padding:6px 14px;
+background:linear-gradient(90deg,#7c3aed,#ec4899);
+color:white;
+padding:6px 16px;
 border-radius:20px;
 display:inline-block;
 margin-top:10px;
+font-weight:bold;
 }
 
 .desc{
@@ -108,6 +127,7 @@ margin-bottom:20px;
 .logo{
 width:70px;
 margin-bottom:10px;
+filter:drop-shadow(0 0 10px rgba(124,58,237,0.6));
 }
 
 .projectName{
